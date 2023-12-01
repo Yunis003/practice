@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+body{
+    background-color:#FFF;
+}
+header{
+    background-color: #FFF;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0 20px 0;
+    /* color: black; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav img{
+    width: 150px;
+    padding-top: 10px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    transition: all 1s ease-in-out;
+}
+nav ul a:hover, a:focus{
+    color: #A6A001;;
+}
+nav div:nth-child(3) button{
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #FFF;
+    border: 1px solid black;
+    width: 190px;
+}
+.main1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFF;
+
+}
+.main1 div:nth-child(1){
+    width: 450px;
+}
+.main1 div:nth-child(1) button{
+background-color: #191A23;
+padding: 20px;
+width: 190px;
+color: #FFF;
+font-size: 15px;
+}
+
+.main1 .texts{
+    padding-bottom: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.main1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    padding-bottom: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main1 div:nth-child(2) img{
+    width: 500px;
+}
+.article1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+}
+.article1 img{
+    padding-right: 50px;
+    background-blend-mode: luminosity;
+    color: black;
+}
+.article2{
+    width: 100%;
+    margin-top: 60px;
+    padding-left: 25px;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    align-items:flex-start;
+    padding-left: 120px;
+    align-items: center;
+}
+.article2 div:nth-child(1){
+    background-color:#B9FF66;
+    font-size: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 25px;
+}
+.article2 div:nth-child(2){
+    width: 350px;
+    font-size: 17px;
+}
+.main2{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.mn{
+    width: 500px;
+    height: 250px;
+    background-color: #A6A001;
+    border-radius:20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mn div:nth-child(1){
+    width: 40%;
+}
+.mn div:nth-child(1) h4{
+    font-size: 30px;
+}
+.mn div:nth-child(1) p{
+    padding-top: 55px;
+}
+.one{
+    background-color: #F3F3F3;
+}
+.one h4{
+    background-color: #B9FF66;
+}
+.two{
+    background-color:#B9FF66 ;
+}
+.two h4{
+    background-color: #FFF;
+}
+.three{
+    background-color: #191A23;
+}
+.three h4{
+    background-color: #B9FF66;
+}
+.three p{
+    color:white
+}
+.article3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 60px;
+}
+.article3 .container{
+    background-color: #F3F3F3;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin-top: 80px;
+}
+.article3 .container div:nth-child(1){
+    width: 300px;
+}
+.container div:nth-child(2) img{
+    width: 220px;
+}
+.txt1{
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container div:nth-child(1) h2{
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+.container div:nth-child(1) p:nth-child(3){
+    background-color: #191A23;
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.article5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 60px;
+}
+.article5 .container2{
+    background-color: #191A23;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    padding: 70px;
+    color: white;
+}
+.container2 div p{
+    padding-right: 30px;
+    padding-bottom:25px;
+}
+.container2 div p:nth-child(2){
+color: #B9FF66;
+}
+.main3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.main3 div{
+    width: 80%;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 15px;
+    padding: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all 2s ease-in-out;
+}
+.main3 p{
+    padding-left: 10px;
+    text-align: center;
+}
+.main3 div:nth-child(1) span{
+    font-size: 20px;
+}
+.main3 div:hover{
+    height: 190px;
+    background-color: #B9FF66;
+}
+.main4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 60px;
+    /* height: 100vh; */
+}
+.main4 .container3{
+gap: 20px;
+display: flex;
+justify-content: center;
+align-items:center  ;
+flex-wrap: wrap;
+}
+.container3 img{
+    width: 350px;
+}
+.main4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.main4 button{
+    border-radius:25px;
+    width: 200px;
+    background-color: #191A23;
+    padding: 20px;
+    color: white;cursor: pointer;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+ 
+}
+.container4{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container4 img{
+    width: 90%;
+}
+.main5{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container5{
+    width: 80%;
+    background-color:#F3F3F3;
+    height: 500px;
+    border-radius:30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    position: relative;
+}
+.container5 div:nth-child(1){
+    width: 400px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container5 div:nth-child(1) input , textarea{
+    border-radius: 10px;
+    background-color: white;
+    border:1px solid black;
+    width: 380px;
+    padding: 15px;
+}
+.container5 button{
+    background-color: #191A23;
+    padding: 10px;
+    font-size: 25px;
+    width: 380px;
+    color: white;
+    border-radius:10px;
+    cursor: pointer;
+    border:1px solid black
+}
+.container5 div:nth-child(2) img{
+    width: 250px;
+}
+.container5 .dcr2{
+    position: absolute;
+    right: 30%;
+    bottom: 8%;
+}
+footer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    background-color: #191A23;
+    border-radius:40px;
+    margin: 40px auto;
+
+}
+footer nav{
+    width: 80%;
+}
+footer nav a{
+    color: white;
+}
+footer nav div:nth-child(3) img{
+    width: 40px;
+    padding-right: 10px;
+}
+.container6{
+    width: 80%;
+}
+.container6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    line-height: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container6 div:nth-child(1){
+    width: 200px;
+    line-height: 20px;
+}
+.container6 div:nth-child(2){
+    background-color: #292A32;
+    border-radius:15px;
+    padding: 40px;
+    width: 400px;
+}
+.container6 div:nth-child(2) button{
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.container6 div:nth-child(2) button:nth-child(1){
+    background-color: transparent;
+    color: white;
+}
+.container6 div:nth-child(2) button:nth-child(2){
+    background-color: #B9FF66;
+}
+.container7{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+    text-align: left;
+    padding-right: 15px;
+}
+.container7 a{
+    color: white;
+}
+@media  screen and (max-width:465px) {
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items:center
+    }
+    nav div:nth-child(2), div:nth-child(3){
+        display: none;
+    }
+
+    .main1{
+        flex-direction: column;
+    }
+    .main1 div:nth-child(1){
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main1 div:nth-child(1) .texts{
+        font-size: 13px;
+        text-align: center;
+    }
+    .main1 div:nth-child(1) h1{
+        font-size: 40px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .main1 div:nth-child(1) button{
+        margin-left: 30%;
+    }
+    .main1 div:nth-child(2) img{
+        width: 390px;
+    }
+    .article1{
+        flex-flow: wrap row;
+    }
+   .article2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-40px);
+   gap: 20px;
+   }
+   .article3 img{
+    display: none;
+   }
+   .article3{
+    flex-direction: column;
+    margin-top:300px;
+   }
+   .container2 div:nth-child(2), div:nth-child(3){
+    display: none;
+   }
+   .container2 div:nth-child(1){
+    padding: 5px;
+    font-size: 24px;
+   }
+   .main4 button{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+   }
+   .main4{
+    margin-bottom: 100px;
+   }
+   .container4 img{
+    width: 800px;
+   }
+ .main5 .container5{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 90%;
+ }
+ .container5 img{
+    display: none;
+ }
+ footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ nav div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+flex-direction: column;
+}
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 40px;
+}
+.container6 div:nth-child(2){
+    width: 350px;
+}
+.container6 div:nth-child(2) button{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    align-content: center;
+    width: 300px;
+}
+}
+    
+
+
+
